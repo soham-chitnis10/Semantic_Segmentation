@@ -61,7 +61,7 @@ This measure can also be represnted in terms of True positives, False Positives 
 
 ## Transfer Learning 
 
-As the paper "Semantic Scene Segmentation for Indoor Robot Navigation via Deep Learning" has shown that with the help of transfer learning we can achieve significant results in semantic segmentation for indoor navigation. This paper has used VGG-16 architecure. Paper is published in August 2018. A similar paper "Semantic Segmentation to Develop an Indoor Navigation System for an Autonomous Mobile Robot" which was published recently has also adopted a similar approach by changing the archieture to ResNet which showed resonably increase in accuracy.
+As the paper ["Semantic Scene Segmentation for Indoor Robot Navigation via Deep Learning"](https://github.com/soham-chitnis10/Semantic_Segmentation/blob/main/Semantic%20Scene%20Segmentation%20for%20Indoor%20Robot.pdf) has shown that with the help of transfer learning we can achieve significant results in semantic segmentation for indoor navigation. This paper has used VGG-16 architecure. Paper is published in August 2018. A similar paper ["Semantic Segmentation to Develop an Indoor Navigation System for an Autonomous Mobile Robot"](https://github.com/soham-chitnis10/Semantic_Segmentation/blob/main/Semantic%20Segmentation%20to%20Develop%20an%20Indoor%0ANavigation%20System%20for%20an%20Autonomous%20Mobile%20Robot.pdf) which was published recently has also adopted a similar approach by changing the archieture to ResNet which showed resonably increase in accuracy.
 
 Pytorch offers pretrained models like DeepLabv3 ResNet models which could be used for transfer learning with custom dataset for indoor navigation. Adding regularizaton and fine-tuning the model may help in increasing its performance.
 
